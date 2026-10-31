@@ -1,0 +1,18 @@
+# Virtualenv
+bin/
+lib/
+include/
+pyvenv.cfg
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Datasets & Temp
+biometrics_core/datasets/*.parquet
+biometrics_core/datasets/*.zip
+*.log
